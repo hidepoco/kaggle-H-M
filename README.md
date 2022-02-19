@@ -62,8 +62,12 @@ gantt
 
 ## Dataset
 |Name|Detail|Ref|
-|---|---|---|
-|SpectrogramDataset|5秒のSpectrogramを取得する。audiofileが5秒より短い場合、足りない部分に0 paddingする。5秒より長いものはランダムに5秒の部分を抽出する。|[公開ノートブック(tawaraさん)](https://www.kaggle.com/ttahara/training-birdsong-baseline-resnest50-fast)|
+|images|商品の画像についてのデータ|-|
+|article.csv|商品関連のデータ|-|
+|customers.csv|顧客情報のデータ|-|
+|transactions_train.csv|顧客の商品購入履歴に関するデータ|-|
+|sample_submission.csv|提出用のデータ。顧客毎に12のアイテムを記載して提出する|-|
+
 |SpectrogramEventRmsDataset|(バグ有り)SpectrogramDataset(SD)を改良。SDでは、鳥の鳴き声が入っていない部分を抽出する可能性があったのでそれを回避するために作った。librosa_rmsを使用し、バックグラウンドに比べてrmsが大きい値を取る時evet(birdcall)とした。|nb012|
 |SpectrogramEventRmsDatasetV2|SpectrogramEventRmsDatasetにバグがあった(nb015)のでfix。|nb015|
 |SpectrogramEventRmsDatasetV3|SpectorgramEventRmsDatasetV2を高速化。(nb017で作ったデータフレームを使用)|nb018|
