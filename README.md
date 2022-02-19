@@ -1,5 +1,4 @@
 # kaggle-H&M
-![comp](./data/info/images/readme/001_comp.png)
 Cornell Birdcall Identification コンペのリポジトリ
 
 - result
