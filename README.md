@@ -43,8 +43,6 @@ Kaggle-H&M
 
 ## Timeline
 
-<img src='./data/info/images/readme/gantt.png' width='1000'>
-
 ```mermaid
 gantt
   title timeline
