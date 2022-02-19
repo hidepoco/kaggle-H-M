@@ -1,5 +1,4 @@
-# kaggle-H-M
-H&amp;Mコンペのあれこれ
+# kaggle-H&M
 
 ![comp](./data/info/images/readme/001_comp.png)
 # kaggle-Cornell-Birdcall-Identification
@@ -9,8 +8,6 @@ Cornell Birdcall Identification コンペのリポジトリ
   - public: 0.566
   - private: 0.599
   - rank: 114/1390
-
-    <img src='./data/info/leaderboard/20200915_private_0p599_114_1390.png' width='500'>
 
 - directory tree
 ```
