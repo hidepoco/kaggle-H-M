@@ -62,7 +62,7 @@ gantt
 
 ## Dataset
 |Name|Detail|Ref|
-|images|商品の画像についてのデータ|-|
+|images|商品の画像についてのデータ|データ|
 |article.csv|商品関連のデータ|-|
 |customers.csv|顧客情報のデータ|-|
 |transactions_train.csv|顧客の商品購入履歴に関するデータ|-|
