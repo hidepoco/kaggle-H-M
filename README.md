@@ -12,11 +12,9 @@ Cornell Birdcall Identification コンペのリポジトリ
 
     <img src='./data/info/leaderboard/20200915_private_0p599_114_1390.png' width='500'>
 
-
-
 - directory tree
 ```
-Kaggle-Cornell-Birdcall-Identification
+Kaggle-H&M
 ├── README.md
 ├── data         <---- gitで管理するデータ
 ├── data_ignore  <---- .gitignoreに記述されているディレクトリ(モデルとか、特徴量とか、データセットとか)
