@@ -29,8 +29,6 @@ Kaggle-H&M
   python3 show_result.py -d 0
   ```
 
-
-
 ## Info
 - [issue board](https://github.com/fkubota/kaggle-Cornell-Birdcall-Identification/projects/1)   <---- これ大事だよ
 - [google slide](https://docs.google.com/presentation/d/1ZcCSnXj2QoOmuIkcA-txJOuAlkLv4rSlS7_zDj90q6c/edit#slide=id.p)
@@ -184,10 +182,13 @@ example: https://www.xeno-canto.org/134874
 
 
 ## Log
-### 20200726
-- join!!
-- spectrogram-treeを使って確認してる。
-  - フィルタが入ってるデータとか多いな...
+### 20220219
+- スタート
+- 分析のアプローチ案
+　-ユニークなarticleのうち一部の商品しか買われていないのではないか？
+　　-まずは期間中飼われている商品の可視化
+　　-上記仮説が正しければ、商品を絞り込んだ上で、ユーザー✖️商品（絞り込んだもの）のリストを作成しその中で予測を行う
+  
 
 | not filter                                                                  | filter                                                                      |
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
