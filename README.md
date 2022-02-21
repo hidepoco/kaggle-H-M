@@ -45,11 +45,11 @@ Kaggle-H&M
 |transactions_train.csv|顧客の商品購入履歴に関するデータ|-|
 |sample_submission.csv|提出用のデータ。顧客毎に12のアイテムを記載して提出する|-|
 
-## Event
-|Name|Detail|Ref|
-|---|---|---|
-|nb017_event_rms|liborsaのrmsを使用。ラウドネスを見ていると思えばいい。|nb017|
-|nb034_event_intensity_500to16000hz|500~16000HzのスペクトルのIntensityをが大きいところをevent部分としている。|nb034|
+## データ分析ノート
+|テーブル|変数名|内容|データタイプ|特徴|変数アイディア|
+|----|----|----|----|----|----|
+|rating|録音の質を表す(A,B,C,D,Eの5段階)|
+
 
 ## Features
 |Name|shape (feat only)|size(MB)|Detail|
@@ -62,12 +62,6 @@ Kaggle-H&M
 ## Paper
 |No.|Status|Name|Detail|Date|Url|
 |---|---|---|---|---|---|
-
-## Data
-|テーブル|変数名|内容|データタイプ|特徴|変数アイディア|
-|----|----|----|----|----|----|
-|rating|録音の質を表す(A,B,C,D,Eの5段階)|
-
 
 
 ## Log
